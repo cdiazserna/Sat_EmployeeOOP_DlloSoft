@@ -28,6 +28,8 @@ namespace EmployeeOOP
                 Date dateObject = new Date(year, month, day);
                 Console.Write("\n"); //Salto de línea
                 Console.WriteLine(dateObject.ToString()); //23/50/23232
+
+                Employee employee = new Employee();
             }
             catch (Exception ex)
             {
